@@ -1,0 +1,222 @@
+.return{
+  color:white;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 30px;
+}
+
+html, body{
+  height: 100%; 
+}
+
+.history{
+  position: absolute;
+  top: 25%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  font-size: 55px;
+}
+
+a:hover{
+  color: rgb(180, 25,25);
+  transition: 1.75s;
+ 
+  font-size: 150%;
+}
+
+a {
+  color: white; 
+}
+
+.popular{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 55px;
+}
+
+.howto{
+  position: absolute;
+  top: 25%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-size: 55px;
+}
+
+.about{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 40px; 
+}
+
+/* History Section*/
+
+.histitle{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font: italic bold 12px/30px Georgia, serif;
+  font-size: 150%
+}
+
+.histitle h1{
+  color: white; 
+}
+
+.img1{
+  position: absolute;
+  top: 60px;
+  left: 1250px;
+  
+}
+
+.img2{
+  position: absolute;
+  top: 290px;
+  left: 1550px;
+  
+}
+
+.img3{
+  position: absolute;
+  top: 475px;
+  left: 1200px;
+  
+}
+
+.gamedev{
+  position: absolute; 
+  top: 125px;
+  left: 810px;
+  transition: 1s;
+}
+
+.caption1{
+  position: absolute;
+  top: 85px;
+  left: 810px;
+  color: white; 
+}
+
+img:hover{
+  box-shadow: 4px 4px rgb(82, 16, 16);
+  height: 350px;
+  transition: 1s;
+}
+
+.desc1{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  color: white;
+  border: 15px solid rgb(82, 16, 16); 
+  float: left;
+  width: 400px;
+  font-size: 200%;
+  font: italic bold 12px/30px Georgia, serif;
+}
+/* How To Play Section */
+.howtitle{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font:italic bold 12px/30px Georgia, serif;
+  font-size: 150%
+}
+
+.howtitle h1{
+  color: white; 
+}
+
+.htpdesc1{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  color: rbg(82, 16, 16);
+  border: 15px solid rgb(82, 16, 16); 
+  float: left;
+  width: 400px;
+  font-size: 500px;
+  font: italic bold 12px/40px Georgia, serif;
+  padding: 10px;
+}
+
+.htpdesc2{
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  color: black;
+  border: 15px solid rgb(82, 16, 16); 
+  float: left;
+  width: 400px;
+  font-size: 250px;
+  font: italic bold 12px/40px Georgia, serif;
+  padding: 10px;
+}
+
+.htpdesc3{
+  position: absolute;
+  top: 100px;
+  left: 1100px;
+  color: black;
+  border: 15px solid rgb(82, 16, 16); 
+  float: left;
+  width: 400px;
+  font-size: 250px;
+  font: italic bold 12px/40px Georgia, serif;
+  padding: 10px;
+}
+ .mapz{
+  position: absolute; 
+  top: 525px;
+  left: 715px;
+   
+}
+
+/* Popularity Section */
+.poptitle{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: white;
+  font:italic bold 12px/30px Georgia, serif;
+  font-size: 150%
+}
+
+.desc2{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  color: white;
+  border: 15px solid rgb(82, 16, 16); 
+  float: left;
+  width: 500px;
+  font-size: 200%;
+  font: italic bold 12px/30px Georgia, serif;
+  padding: 10px;
+}
+.popimg1{
+  position: absolute;
+  top: 100px;
+  left: 775px;
+}
+
+.popimg2{
+  position: absolute;
+  top: 475px;
+  left: 750px; 
+}
+
+/* About Section */
+
+.aboutuss{
+  background-image: url("gamepic.jpg");
+  color: white; 
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
